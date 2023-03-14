@@ -1,0 +1,162 @@
+.Smrtko,
+.Barac,
+.Coyote,
+.Patriot,
+.Okto,
+.Petar,
+.Bulldog,
+.Raven,
+.TEX,
+.Sledge {
+  background-color: #00ffff00;
+  border-style: solid;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: double;
+  transition: transform 0.5s;
+  border-width: 5px;
+  border-color: #101011;
+  background: rgba(77, 77, 156, 0.382);
+  width: 25%;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Smrtko:hover {
+  background-image: url(./Slike/IMG_9377.JPG);
+  transform: scale(1.4);
+}
+
+.Barac:hover {
+  background-image: url(./Slike/IMG_6057.jpg);
+  transform: scale(1.4);
+}
+
+.Okto:hover {
+  background-image: url(./Slike/IMG_6055.jpg);
+  transform: scale(1.4);
+}
+
+.Petar:hover {
+  background-image: url(./Slike/IMG_6058.jpg);
+  transform: scale(1.4);
+}
+
+.Coyote:hover {
+  background-image: url(./Slike/coyote.jpg);
+  transform: scale(1.4);
+}
+.Bulldog:hover {
+  background-image: url(./Slike/bulldog.JPG);
+  transform: scale(1.4);
+}
+.TEX:hover {
+  background-image: url(./Slike/TEX.JPG);
+  transform: scale(1.4);
+}
+
+.Patriot:hover {
+  background-image: url(./Slike/patriot.JPG);
+  transform: scale(1.4);
+}
+
+.Raven:hover {
+  background-image: url(./Slike/raven.JPG);
+  transform: scale(1.4);
+}
+
+.Sledge:hover {
+  background-image: url(./Slike/Sledge.JPG);
+  transform: scale(1.4);
+}
+h2 {
+  text-shadow: 1px 1px 1px #ef8c1b;
+  font-size: 30px;
+  color: #2a2a2a;
+  text-decoration: underline;
+}
+
+#boxes {
+  border-width: 5px;
+  border-color: #101011;
+  display: flex;
+  gap: 15px;
+}
+p {
+  font-size: 30px;
+  color: #ef8c1b;
+}
+button {
+  color: #8b8a67;
+  margin: 40px;
+  padding: 30px;
+  border-radius: 40px;
+  border-color: #8b8a67;
+  background-color: rgb(28, 29, 29);
+}
+.dugme {
+  text-align: center;
+}
+body {
+  margin: 0;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(./Slike/IMG_8422.JPG);
+  min-height: 100vh;
+}
+
+a:link {
+  text-decoration: none;
+  color: #ef8c1b;
+}
+
+a:visited {
+  text-decoration: line-through;
+  color: unset;
+}
+
+a:hover {
+  text-decoration: overline underline;
+  color: #ef8c1b;
+}
+
+a:active {
+  text-decoration: underline;
+}
+.Linkovi {
+  text-align: center;
+  color: #ef8c1b;
+}
+
+/* Intro */
+
+.intro {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(./Slike/intro\ slika.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+
+.intro-button {
+  cursor: pointer;
+  position: absolute;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgb(15, 16, 16);
+  border: 3px;
+  margin: 20px;
+  transform: translate(-50%, -50%);
+  top: 20%;
+  left: 50%;
+  font-size: 25px;
+  padding: 10px 10px;
+  text-align: center;
+}
