@@ -82,7 +82,6 @@ h2 {
   border-width: 5px;
   border-color: #101011;
   display: flex;
-  flex-wrap: wrap;
   gap: 15px;
   padding: 10px;
   margin: 0 auto;
@@ -179,6 +178,10 @@ a:active {
     background-position: 26%;
     background-size: cover;
     margin: 0;
+  }
+
+  #boxes {
+    flex-wrap: wrap;
   }
 
   h2 {
