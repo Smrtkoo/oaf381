@@ -8,9 +8,19 @@
     <link rel="stylesheet" href="style.css" />
 
     <script>
+      const bodyScrollLock = (lock) => {
+        const body = document.getElementsByTagName("body")[0];
+        if (lock) {
+          body.style.overflow = "hidden";
+        } else {
+          body.style.overflow = "auto";
+        }
+      };
+
       const hideIntro = () => {
         const intro = document.getElementsByClassName("intro")[0];
         intro.style.display = "none";
+        bodyScrollLock(false);
       };
     </script>
   </head>
@@ -98,9 +108,9 @@
         </b>
       </p>
     </div>
-    <div>
+    <div class="iframe">
       <iframe
-        width="300"
+        width="100%"
         src="https://www.youtube.com/embed/X12i2P33sFw"
         title="YouTube video player"
         frameborder="0"

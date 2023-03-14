@@ -70,6 +70,7 @@
   background-image: url(./Slike/Sledge.JPG);
   transform: scale(1.4);
 }
+
 h2 {
   text-shadow: 1px 1px 1px #ef8c1b;
   font-size: 30px;
@@ -81,12 +82,17 @@ h2 {
   border-width: 5px;
   border-color: #101011;
   display: flex;
+  flex-wrap: wrap;
   gap: 15px;
+  padding: 10px;
+  margin: 0 auto;
 }
+
 p {
   font-size: 30px;
   color: #ef8c1b;
 }
+
 button {
   color: #8b8a67;
   margin: 40px;
@@ -95,10 +101,13 @@ button {
   border-color: #8b8a67;
   background-color: rgb(28, 29, 29);
 }
+
 .dugme {
   text-align: center;
 }
+
 body {
+  overflow: hidden;
   margin: 0;
   position: relative;
   background-position: center;
@@ -159,4 +168,75 @@ a:active {
   font-size: 25px;
   padding: 10px 10px;
   text-align: center;
+}
+
+.iframe {
+  width: 300px;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-position: 26%;
+    background-size: cover;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .intro {
+    width: 100vw;
+    height: 100vh;
+    right: unset;
+    bottom: unset;
+  }
+
+  .iframe {
+    width: 100%;
+  }
+
+  .intro-button {
+    padding: 22px;
+  }
+
+  .Smrtko {
+    background-image: url(./Slike/IMG_9377.JPG);
+  }
+
+  .Barac {
+    background-image: url(./Slike/IMG_6057.jpg);
+  }
+
+  .Okto {
+    background-image: url(./Slike/IMG_6055.jpg);
+  }
+
+  .Petar {
+    background-image: url(./Slike/IMG_6058.jpg);
+  }
+
+  .Coyote {
+    background-image: url(./Slike/coyote.jpg);
+  }
+
+  .Bulldog {
+    background-image: url(./Slike/bulldog.JPG);
+  }
+
+  .TEX {
+    background-image: url(./Slike/TEX.JPG);
+  }
+
+  .Patriot {
+    background-image: url(./Slike/patriot.JPG);
+  }
+
+  .Raven {
+    background-image: url(./Slike/raven.JPG);
+  }
+
+  .Sledge {
+    background-image: url(./Slike/Sledge.JPG);
+  }
 }
